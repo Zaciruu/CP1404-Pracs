@@ -17,10 +17,15 @@ def main():
     while not is_valid_password(password):
         print("Invalid password!")
         password = input("> ")
-    for i, char in enumerate(password):
-        #Really sloppy coding, trying to find the correct way to make it work.
-        print(end=' ')
-    print("Your {}-character password is valid: {}".format(len(password), i * '*' + '*'))
+    # for i, char in enumerate(password):
+    #     #Really sloppy coding, trying to find the correct way to make it work.
+    #     print(end=' ')
+    # print("Your {}-character password is valid: {}".format(len(password), i * '*' + '*'))
+    print("\nYour {}-character password is valid:".format(len(password)))
+    for i in range(len(password)):
+        print("*", end='')
+
+
 
 
 def is_valid_password(password):
