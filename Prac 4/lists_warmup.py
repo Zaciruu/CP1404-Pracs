@@ -14,4 +14,3 @@ if numbers.index(9):
     print("true")
 else:
     print("false")
-
