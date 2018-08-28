@@ -32,8 +32,8 @@ lowercase_full_names = [names.lower() for names in full_names]
 print(lowercase_full_names)
 
 almost_numbers = ['0', '10', '21', '3', '-7', '88', '9']
-# Add all ints from almost_numbers list into numbers list
-numbers = [int(almost_numbers) for almost_numbers in almost_numbers]
+# Add all ints from almost_numbers list into numbers list, cast them as int back into new list
+numbers = [int(numbers) for numbers in almost_numbers]
 print(numbers)
 
 
