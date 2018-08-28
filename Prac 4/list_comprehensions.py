@@ -27,16 +27,16 @@ print(full_initials)
 a_names = [name for name in names if name.startswith('A')]
 print(a_names)
 
-"""For all the names in full_names list reformat them in lower case .lower() and add to list"""
+# For all the names in full_names list reformat them in lower case .lower() and add to list
 lowercase_full_names = [names.lower() for names in full_names]
 print(lowercase_full_names)
 
 almost_numbers = ['0', '10', '21', '3', '-7', '88', '9']
-"""Add all ints from almost_numbers list into numbers list"""
+# Add all ints from almost_numbers list into numbers list
 numbers = [int(almost_numbers) for almost_numbers in almost_numbers]
 print(numbers)
 
 
-"""Get the number from the list of numbers if the number from numbers is > 9"""
+# Get the number from the list of numbers if the number from numbers is > 9
 large_numbers = [number for number in numbers if number > 9]
 print(large_numbers)
