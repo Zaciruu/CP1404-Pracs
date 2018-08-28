@@ -12,12 +12,14 @@ def main():
     for i in range(num_of_quick_picks):
         quick_pick = []
         for x in range(numbers_per_line):
+            # Generates numbers for each line
             number = random.randint(minimum, maximum)
             while number in quick_pick:
-                """Gets random numbers and appends them to list"""
+                # Gets random numbers and appends them to list
                 number = random.randint(minimum, maximum)
             quick_pick.append(number)
         quick_pick.sort()
+        # Taken from example
         print(" ".join("{:2}".format(number) for number in quick_pick))
 
 
