@@ -10,7 +10,8 @@ STATE_NAMES = {"QLD": "Queensland",
                "NT": "Northern Territory",
                "WA": "Western Australia",
                "ACT": "Australian Capital Territory",
-               "VIC": "Victoria", "TAS": "Tasmania"}
+               "VIC": "Victoria",
+               "TAS": "Tasmania"}
 # print(STATE_NAMES)
 for state in STATE_NAMES:
     print("{:3} is {:3}".format(state, STATE_NAMES[state]))
