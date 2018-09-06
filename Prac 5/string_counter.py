@@ -2,11 +2,8 @@ unique_words = {}
 text = input("Words: ")
 words = text.split()
 for word in words:
-    frequency = unique_words.get(word, 0)
-    # Note: this is the "Look Before You Leap" (LBYL) pattern
-    # we could use the "Easier to Ask Forgiveness" pattern using exceptions
-    unique_words[word] = frequency + 1
-
+    frequency_of_words = unique_words.get(word, 0)
+    unique_words[word] = frequency_of_words + 1
 words = list(unique_words.keys())
 words.sort()
 max_length = max((len(word) for word in words))
