@@ -1,11 +1,11 @@
-COLOUR_WHEEL = {"lawnGreen:": "#7cfc00",
-                "lavenderBlush": "#fff0f5",
-                "hotPink": "#ff69b4",
-                "indianRed": "#cd5c5c",
+COLOUR_WHEEL = {"lawnfreen:": "#7cfc00",
+                "lavenderblush": "#fff0f5",
+                "hotpink": "#ff69b4",
+                "indianred": "#cd5c5c",
                 "magenta": "#ff00ff",
-                "mistyRose": "#ffe4e1",
-                "oliveDrab": "#6b8e23",
-                "powderBlue": "#b0e0e6",
+                "mistyrose": "#ffe4e1",
+                "olivedrab": "#6b8e23",
+                "powderblue": "#b0e0e6",
                 "red": "#ff0000",
                 "yellow": "#ffff00"}
 
