@@ -12,23 +12,15 @@ def main():
     print("Let's Drive")
     print(MENU)
     user_input = input(">>>").lower()
-    while True:
-        try:
-            selection = (input(">>>"))
-            if selection.upper() == 'Q':
-                quit()
-                break
-            elif selection.upper() == 'C':
-                choose_taxi()
-                break
-            elif selection.upper() == 'D':
-                drive()
-                break
-            else:
-                print("Invalid menu choice")
-                print(MENU)
-        except ValueError:
-            print("Invalid menu choice")
+    while user_input != "q":
+        if user_input == "c":
+            print("Taxis available")
+        elif user_input == "d":
+            print("Drive")
+        else:
+            print("Invalid option")
+        print(MENU)
+        user_input = input(">>> ").lower()
 
 
 main()
